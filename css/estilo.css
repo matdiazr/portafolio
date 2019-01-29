@@ -1,0 +1,251 @@
+/* probando los comentarios
+ control + shift + 7 
+ */
+.header {
+  background-color: #1b095b;
+  color: #B47209;
+  /* border:  20px solid #B47209; */
+  display: flex;
+  justify-content: space-between;
+  height: 140px;
+}
+.header a {
+  color: #D9BA06;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  height: inherit;
+  padding: 0px 10px;
+}
+.menu{
+  height: inherit;
+}
+.header ul{
+  display: flex;
+  height: inherit;
+}
+.header ul li{
+  height: inherit;
+}
+.container{
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+  /* box-shadow: inherit; */
+}
+ol,
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+figure{
+  margin: 0;
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #1b095b;
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Fjalla One', sans-serif;
+  color: #1b095b;
+  font-weight: normal;
+  /* font-style: italic; */
+}
+h1 {
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: -.2px;
+  margin: 0;
+  /* margin-right: 600px; */
+  /* text-transform: uppercase;
+  text-decoration: dashed; */
+}
+h1 strong{
+  color: #D9BA06;
+}
+h2{
+  color: #B47209;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.hero{
+  height: 300px;
+  /* background-image: url('../imagenes/pretencioso.jpg'); */
+  background-color: grey;
+  /* background-size: 300px 300px; */
+  /* background-repeat: no-repeat; */
+  /* background-position-x: right; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-image{
+  object-fit: cover;
+}
+.portfolio{
+  background: #1b095b;
+  padding: 20px;
+  /* border-top: 8px solid #1b095b; */
+}
+.project{
+  border: 10px solid #B47209;
+  border-radius: 10px;
+  /* border-bottom-right-radius: 50px; */
+  /* border-top-right-radius: 180px; */
+  /* width: 600px; */
+  /* margin: 10px; */
+  margin-bottom: 15px;
+  padding: 20px;
+  background: grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  
+}
+.project-title{
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+.project-subTitle,
+.project-date,
+.project-url{
+  margin: 10px 0;
+}
+.project-description{
+  font-size: 20px;
+}
+.project strong{
+  font-family: 'Fjalla One', sans-serif;
+}
+.project a {
+  text-decoration: none;
+  color: white;
+}
+.project-detail{
+  width: 500px;
+}
+p {
+  color: #D9BA06;
+}
+.experience-list-title{
+  margin: 20px;
+}
+.experience-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.experience{
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+  width: 480px;
+  background-color: #B47209;
+
+}
+.experience img{
+  width: 480px;
+  height: 200px;
+  object-fit: cover; 
+}
+.experience-detail{
+  margin: 20px;
+  margin-top: -40px;
+  position: relative;
+  padding: 20px;
+  background-color: grey;
+  text-align: center;
+}
+.experience-description{
+  text-align: left;
+}
+.experience-url{
+  border: 1px solid white;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+.contact{
+  background-color: grey;
+  color: #1b095b;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social-link{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  margin: 0 10px;
+}
+.social-link.facebook{
+  background-image: url(../imagenes/facebook.svg);
+}
+.social-link.linkedin{
+  background-image: url(../imagenes/linkedin.svg);
+}
+.social-link.git{
+  background-image: url(../imagenes/gitlab.svg);
+}
+.social-link.instagram{
+  background-image: url(../imagenes/instagram.svg);
+}
+.form-email input{
+  border-color: gray;
+  border-radius: 5px;
+  border-style: solid;
+  padding: 10px 20px 10px 25px;
+  background-image: url(../imagenes/correo.svg);
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+}
+.form-email button{
+  display: block;
+  margin-top: 10px;
+  background: transparent;
+  color: white;
+  /* padding: 10px 0px;  */
+  border-radius: 5px;
+  width: 100px;
+  margin-top: 10px;
+  height: 30px;
+  justify-content: center;
+}
+.form-email h3{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.footer{
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer div p{
+  color: #D9BA06;
+}
+.footer img{
+  vertical-align: middle;
+}
+.footer a{
+  color: white;
+}
