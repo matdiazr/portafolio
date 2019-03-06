@@ -2,15 +2,15 @@
  control + shift + 7 
  */
 .header {
-  background-color: #1b095b;
-  color: #B47209;
+  background-color: #E5E1E0;
+  color: #2F2C32;
   /* border:  20px solid #B47209; */
   display: flex;
   justify-content: space-between;
   height: 140px;
 }
 .header a {
-  color: #D9BA06;
+  color: #2F2C32;
   text-decoration: none;
   align-items: center;
   display: flex;
@@ -48,12 +48,12 @@ figure{
 }
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  background-color: #1b095b;
+  background-color: #E5E1E0;
   margin: 0;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Fjalla One', sans-serif;
-  color: #1b095b;
+  color: #E5E1E0;
   font-weight: normal;
   /* font-style: italic; */
 }
@@ -70,7 +70,7 @@ h1 strong{
   color: #D9BA06;
 }
 h2{
-  color: #B47209;
+  color: #2F2C32;
   text-transform: uppercase;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
@@ -80,7 +80,7 @@ h2{
 .hero{
   height: 300px;
   /* background-image: url('../imagenes/pretencioso.jpg'); */
-  background-color: grey;
+  background-color: #2F2C32;
   /* background-size: 300px 300px; */
   /* background-repeat: no-repeat; */
   /* background-position-x: right; */
@@ -92,7 +92,7 @@ h2{
   object-fit: cover;
 }
 .portfolio{
-  background: #1b095b;
+  background: #E5E1E0;
   padding: 20px;
   /* border-top: 8px solid #1b095b; */
 }
@@ -138,7 +138,7 @@ h2{
   width: 500px;
 }
 p {
-  color: #D9BA06;
+  color: #2F2C32;
 }
 .experience-list-title{
   margin: 20px;
@@ -183,7 +183,7 @@ p {
   border-radius: 5px;
 }
 .contact{
-  background-color: grey;
+  background-color: #2F2C32;
   color: #1b095b;
   height: 150px;
   display: flex;
@@ -242,11 +242,11 @@ p {
   justify-content: space-between;
 }
 .footer div p{
-  color: #D9BA06;
+  color: #2F2C32;
 }
 .footer img{
   vertical-align: middle;
 }
 .footer a{
-  color: white;
+  color: #2F2C32;
 }
