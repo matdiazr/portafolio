@@ -15,6 +15,7 @@
   align-items: center;
   display: flex;
   height: inherit;
+  margin: 10px;
   padding: 0px 10px;
 }
 .menu{
@@ -97,7 +98,7 @@ h2{
   /* border-top: 8px solid #1b095b; */
 }
 .project{
-  border: 10px solid #B47209;
+  /* border: 10px solid #B47209; */
   border-radius: 10px;
   /* border-bottom-right-radius: 50px; */
   /* border-top-right-radius: 180px; */
@@ -126,6 +127,8 @@ h2{
 }
 .project-description{
   font-size: 20px;
+  margin-right: 30px;
+  text-align: justify;
 }
 .project strong{
   font-family: 'Fjalla One', sans-serif;
@@ -156,7 +159,7 @@ p {
   margin: 10px;
   margin-bottom: 15px;
   width: 480px;
-  background-color: #B47209;
+  /* background-color: #B47209; */
 
 }
 .experience img{
@@ -169,7 +172,7 @@ p {
   margin-top: -40px;
   position: relative;
   padding: 20px;
-  background-color: grey;
+  background-color: #2f2c32;
   text-align: center;
 }
 .experience-description{
@@ -183,8 +186,8 @@ p {
   border-radius: 5px;
 }
 .contact{
-  background-color: #2F2C32;
-  color: #1b095b;
+  background-color: grey;
+  /* color: #1b095b; */
   height: 150px;
   display: flex;
   align-items: center;
