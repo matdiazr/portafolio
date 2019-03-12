@@ -107,9 +107,10 @@ h2{
   margin-bottom: 25px;
   padding: 20px;
   background: grey;
-  display: flex;
+  display: grid;
+  grid-template: 1fr / 1fr 1fr;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -253,4 +254,17 @@ p {
 }
 .footer a{
   color: #2F2C32;
+}
+@media screen and (max-width: 1000px){
+  .project{
+    grid-template-columns: 70px 1fr;
+    grid-template-areas: "texto ."
+                         "img .";
+  }
+  .project-imageContainer{
+    grid-area: img;
+  }
+  .project-detail{
+    grid-area: texto;
+  }
 }
