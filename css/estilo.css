@@ -256,10 +256,10 @@ p {
 .footer a{
   color: #2F2C32;
 }
-@media screen and (max-width: 780px){
+@media screen and (max-width: 980px){
   .project{
     width: 500px;
-    margin-left: 70px;
+    margin-left: 180px;
     grid-template-columns: 70px 1fr;
     grid-template-areas: "texto ."
                          "img .";
@@ -269,5 +269,11 @@ p {
   }
   .project-detail{
     grid-area: texto;
+  }
+  .experience-list-title{
+    margin-left: 300px;
+  }
+  .title-portafolio{
+    margin-left: 180px;
   }
 }
