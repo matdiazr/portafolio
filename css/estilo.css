@@ -167,12 +167,13 @@ p {
 .experience img{
   width: 480px;
   height: 310px;
-  object-fit: cover; 
+  /* object-fit: cover permite cargar la imagen a tamaño real pero solo podras ver las dimensiones definidas */
+  /* object-fit: cover;  */
   border-radius: 10px;
 }
 .experience-detail{
   margin: 20px;
-  margin-top: -40px;
+  /* margin-top: -40px; */
   position: relative;
   padding: 20px;
   background-color: #2f2c32;
