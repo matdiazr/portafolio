@@ -41,6 +41,31 @@ h2{
   font-size: 20px;
   color: #2F2C32;
 }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 70px;
+  color: #2F2C32;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 70px;
+  color: #2F2C32;
+}
+.carousel-indicators li {
+  background-color: #2F2C32;
+}
 .experience-detail{
   margin: 10px;
   padding: 10px;
