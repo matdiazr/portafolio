@@ -5,143 +5,215 @@
     <title>Matias Web</title>
     <link rel="icon" type="image/png" href="imagenes/AlianzaLogo.png" />
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/new-estilo.css">
+
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <figure>
-                <!-- <img src="imagenes/AlianzaLogo.png" width="140" alt="No Cargo el logo" /> -->
-            </figure>
-            <nav class="menu">
-                <ul>
-                    <li>
-                        
-                        <a class="link" href="#portafolio"><img src="imagenes/briefcase.svg" width="40"/></a>
-                    </li>
-                    <li>
-                        <a class="link" href="#experiencia"><img src="imagenes/students-cap.svg" width="40"/></a>
-                    </li>
-                    <li>
-                        <a class="link" href="#contacto"><img src="imagenes/hand-shake.svg" width="40"/></a>
-                    </li>
-                </ul>
-            </nav>
+    <header>
+        <div class="container header">
+            <div class="row justify-content-between">
+                <div class="align-self-center d-flex">
+                    <img src="./imagenes/web-logo.svg" class="img-fluid d-flex" alt="" width="50">
+                    <h2 class="m-0 pl-2 pt-3">Web Developer</h2>
+                </div>
+                <nav class="menu align-self-center">
+                    <ul class="nav">
+                        <li class="nav-item">
+                        <a class="nav-link active" href="#portafolio"><img src="imagenes/briefcase.svg" width="40"/></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#experiencia"><img src="imagenes/students-cap.svg" width="40"/></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#contacto"><img src="imagenes/hand-shake.svg" width="40"/></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
-    <section class="hero">
-        <div class="container">
-            <h1>Hola! Soy <Strong>Matías Díaz</Strong> con 22 años<br/>
-                Me titulé de <strong>Analista Programador</strong> en <strong>Duoc</strong> UC<br/>
-                Amante del <strong>Aprendizaje</strong>
-            </h1>
-            <!-- <img class="hero-image" src="imagenes/pretencioso.jpg" width="300" height="300" alt="No cargo a Matias" /> -->
+    
+    <div class="container-fluid hero">
+        <div class="row align-items-center">
+            <div class="col-lg-8">
+                <h1 class="mx-auto">Hola! Soy <Strong>Matías Díaz</Strong> con 22 años<br/>
+                    Me titulé de <strong>Analista Programador</strong> en <strong>Duoc</strong> UC<br/>
+                    Amante del <strong>Aprendizaje</strong> con 1 año de experiencia en desarrollo web.
+                </h1>
+            </div>
+            <div class="col-lg-4">
+                <img src="./imagenes/matias.jpeg" class="img-fluid d-block" alt="">
+            </div>
         </div>
-    </section> 
-    <section id="portafolio" class="portfolio">
+        <!-- <img class="hero-image" src="imagenes/pretencioso.jpg" width="300" height="300" alt="No cargo a Matias" /> -->
+    </div>
+    
+    <section id="portafolio" class="portfolio my-5">
         <div class="container">
             <h2 class="title-portafolio">Proyectos destacados</h2>
-            <article class="project">
-                <figure class="project-imageContainer">
-                    <img src="imagenes/ps1.png" alt="No cargo PeoplePS" width="500">
-                </figure>
-                <div class="project-detail">
-                    <h3 class="project-title">Colaboración en PeoplePS</h3>
-                    <h5 class="project-subTitle">Desarrollado en Python/Django</h5>
-                    <p class="project-date"><small><strong>Fecha:</strong> 15/08/2017 </small></p>
-                    <p class="project-url"><small><strong>Puedes verlo en:</strong><a href="http://www.peopleps.cl/"> PeoplePs</a> </small></p>
-                    <p class="project-description">Tu proceso de Selección de Personas en cargos masivos puede ayudarte a lograr los objetivos de productividad, rotación y desempeño del capital humano en tu compañía.<br/>
-                        Automatizar no es suficiente, el poder del big-data<br/> 
-                        está al alcance de RRHH</p>
+            <div id="carouselExampleCaptions" class="carousel carousel-fade slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                </ol>
+                
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="https://grisanticussen.com/" target="blank_">
+                            <img src="imagenes/gc2.png" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+                
+                    <div class="carousel-item">
+                        <a href="http://pastoral.uc.cl/" target="blank_">
+                            <img src="imagenes/uc1.png" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+
+                    <div class="carousel-item">
+                        <a href="https://www.cchc.cl/" target="blank_">
+                            <img src="imagenes/cch.png" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+
+                    <div class="carousel-item">
+                        <a href="https://www.sanasalud.cl/" target="blank_">
+                            <img src="imagenes/sn.png" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
                 </div>
-            </article>
-            <article class="project">
-                <div class="project-detail">
-                    <h3 class="project-title">Colaboración en PeoplePS</h3>
-                    <h5 class="project-subTitle">Desarrollado en Python/Django</h5>
-                    <p class="project-date"><small><strong>Fecha:</strong> 15/08/2017 </small></p>
-                    <p class="project-url"><small><strong>Puedes verlo en:</strong><a href="http://www.peopleps.cl/"> PeoplePs</a> </small></p>
-                    <p class="project-description">Tu proceso de Selección de Personas en cargos masivos puede ayudarte a lograr los objetivos de productividad, rotación y desempeño del capital humano en tu compañía.<br/>
-                        Automatizar no es suficiente, el poder del big-data<br/> 
-                        está al alcance de RRHH</p>
-                </div>
-                <figure class="project-imageContainer">
-                    <img src="imagenes/ps2.png" alt="No cargo PeoplePS" width="500">
-                </figure>
-            </article>
+            
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
         </div>
     </section>
-    <div class="container">
-        <h2 class="experience-list-title">Más sobre mi experiencia</h2>
-    </div>
     <section id="experiencia" class="experience-list">
         <div class="container">
-            <article class="experience">
-                <figure class="experience-imageContainer">
-                    <img class="experience-image" src="imagenes/vue-logo.png" alt="No cargo certificado git" width="300" />
-                </figure>
-                <div class="experience-detail">
-                    <h3 class="experience-title">Curso básico de Vue.js</h3>
-                    <!-- <p class="experience-description">Curso realizado en Platzi</p> -->
-                    <!-- <a class="experience-url" href="https://platzi.com/@sebastian-diaz-ramos/curso/1170-git-github/diploma/detalle/" target="_blank">ver más</a> -->
+            <h2 class="experience-list-title">Más sobre mi experiencia</h2>
+            <div class="row my-5">
+                <div class="col-lg-4">
+                    <figure class="experience-imageContainer">
+                        <img class="img-fluid" src="imagenes/php-logo.png" alt="No cargo certificado web"/>
+                    </figure>
+                    <div class="experience-detail">
+                        <h3 class="experience-title">Desarrollo en PHP</h3>
+                    </div>
                 </div>
-            </article>
-            <article class="experience">
-                <figure class="experience-imageContainer">
-                    <img class="experience-image" src="imagenes/docker-logo.png" alt="No cargo certificado web" width="300" />
-                </figure>
-                <div class="experience-detail">
-                    <h3 class="experience-title">Fundamentos de Docker</h3>
-                    <!-- <p class="experience-description">Curso realizado en Platzi</p> -->
-                    <!-- <a class="experience-url" href="https://platzi.com/@sebastian-diaz-ramos/curso/1350-html5-css3/diploma/detalle/" target="_blank">ver más</a> -->
+                <div class="col-lg-4">
+                    <figure class="experience-imageContainer">
+                        <img class="img-fluid" src="imagenes/laravel-logo.png" alt="No cargo certificado web"/>
+                    </figure>
+                    <div class="experience-detail">
+                        <h3 class="experience-title">Desarrollo en Laravel</h3>
+                    </div>
                 </div>
-            </article>
-            <article class="experience">
-                <figure class="experience-imageContainer">
-                    <img class="experience-image" src="imagenes/git-logo.png" alt="No cargo git" width="300" />
-                </figure>
-                <div class="experience-detail">
-                    <h3 class="experience-title">Curso profesional de Git y GitHub </h3>
-                    <!-- <p class="experience-description">Curso realizado en Platzi</p> -->
-                    <!-- <a class="experience-url" href="https://platzi.com/@sebastian-diaz-ramos/curso/1350-html5-css3/diploma/detalle/" target="_blank">ver más</a> -->
+                <div class="col-lg-4">
+                    <figure class="experience-imageContainer">
+                        <img class="img-fluid" src="imagenes/wordpress-logo.png" alt="No cargo certificado web"/>
+                    </figure>
+                    <div class="experience-detail">
+                        <h3 class="experience-title">Temas y Plugins</h3>
+                    </div>
                 </div>
-            </article>
-            <article class="experience">
-                <figure class="experience-imageContainer">
-                    <img class="experience-image" src="imagenes/wordpress.png" alt="No cargo certificado web" width="300" />
-                </figure>
-                <div class="experience-detail">
-                    <h3 class="experience-title">Curso de Temas y Plugins en WordPress</h3>
-                    <!-- <p class="experience-description">Curso realizado en Platzi</p> -->
-                    <!-- <a class="experience-url" href="https://platzi.com/@sebastian-diaz-ramos/curso/1350-html5-css3/diploma/detalle/" target="_blank">ver más</a> -->
+            </div>
+            <div class="row my-5">
+                <div class="col-lg-4">
+                    <figure class="experience-imageContainer">
+                        <img class="img-fluid" src="imagenes/mysql-logo.png" alt="No cargo certificado web"/>
+                    </figure>
+                    <div class="experience-detail">
+                        <h3 class="experience-title">Desarrollo en Laravel</h3>
+                    </div>
                 </div>
-            </article>
+                <div class="col-lg-4">
+                    <figure class="experience-imageContainer w-100">
+                        <img class="img-fluid mx-auto" src="imagenes/vue-logo.png" alt="No cargo certificado git"/>
+                    </figure>
+                    <div class="experience-detail">
+                        <h3 class="experience-title">Curso básico de Vue.js</h3>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <figure class="experience-imageContainer">
+                        <img class="img-fluid" src="imagenes/bootstrap-logo.png" alt="No cargo certificado web"/>
+                    </figure>
+                    <div class="experience-detail">
+                        <h3 class="experience-title">Temas y Plugins</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-lg-4">
+                    <figure class="experience-imageContainer">
+                        <img class="img-fluid" src="imagenes/git-logo.png" alt="No cargo git"/>
+                    </figure>
+                    <div class="experience-detail">
+                        <h3 class="experience-title">Curso profesional de Git y GitHub </h3>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <figure class="experience-imageContainer">
+                        <img class="img-fluid mx-auto" src="imagenes/docker-logo.png" alt="No cargo certificado web"/>
+                    </figure>
+                    <div class="experience-detail">
+                        <h3 class="experience-title">Fundamentos de Docker</h3>
+                    </div>
+                </div>
+            </div>
+           
         </div>
     </section>
-    <section id="contacto" class="contact">
+    
+    <div id="contacto" class="container-fluid contacto">
         <div class="container">
-            <form action="#" class="form-email">
-                <h3>¿Creamos algo juntos ?</h3>
-                <input type="text" placeholder="Déjame tu correo" id="correo" />
-                <button>Enviar</button>
-            </form>
-            <div class="social">
-                <a href="https://www.linkedin.com/in/matias-diaz-ramos-5208a6146/" class="social-link linkedin"></a>
-                <a href="https://www.facebook.com/Matitrolll" class="social-link facebook"></a>
-                <a href="https://gitlab.com/mat.diazr" class="social-link git"></a>
-                <a href="https://www.instagram.com/matias.diazr/?hl=es-la" class="social-link instagram"></a>
+            <div class="row align-items-center justify-content-between">
+                <div class="col-lg-5">
+                    <form action="#" class="form-email">
+                        <h3>¿Creamos algo juntos ?</h3>
+                        <p class="px-5">mat.diazr@gmail.com</p>
+                        <!-- <input type="text" placeholder="Déjame tu correo" id="correo" /> -->
+                        <!-- <button>Enviar</button> -->
+                    </form>
+                </div>
+                <div class="col-lg-5 social">
+                    <a href="https://www.linkedin.com/in/matias-diaz-ramos-5208a6146/" class="social-link linkedin"><img src="./imagenes/linkedin.svg" alt="" width="50"></a>
+                    <a href="#" class="social-link facebook"><img src="./imagenes/facebook.svg" alt="" width="50"></a>
+                    <a href="https://gitlab.com/mat.diazr" class="social-link git"><img src="./imagenes/gitlab.svg" alt="" width="50"></a>
+                    <a href="https://www.instagram.com/matias.diazr/?hl=es-la" class="social-link instagram"><img src="./imagenes/instagram.svg" alt="" width="50"></a>
+                </div>
             </div>
+
         </div>
-    </section>  
-    <footer class="footer">
-        <div class="container">
-            <div>
-                <p>Portafolio Web armado en 2017</p>
-            </div>
-            <div>
-                <p>Creado por mi <a href="https://www.instagram.com/matias.diazr/?hl=es-la" target="_blank">@mat.diazr</a></p>
+    </div>
+
+    <footer>
+        <div class="container footer">
+            <div class="row justify-content-between">
+                    <p>Portafolio Web armado en 2017</p>
+                    <p>Creado por mi <a href="https://www.instagram.com/matias.diazr/?hl=es-la" target="_blank">@mat.diazr</a></p>
+                </div>
             </div>
         </div>
     </footer>   
 </body>
+<script>
+// $('.carousel').carousel({
+//   interval: 500,
+//   pause: "hover"
+// });
+</script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </html>

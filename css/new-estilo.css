@@ -1,0 +1,70 @@
+body {
+  background-color: #E5E1E0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Fjalla One', sans-serif;
+  color: #E5E1E0;
+  font-weight: normal;
+}
+h1 {
+  font-size: 36px;
+  line-height: 1.5;
+  letter-spacing: -.2px;
+}
+h1 strong{
+  color: #D9BA06;
+}
+h2{
+  color: #2F2C32;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.header .row{
+  color: #2F2C32;
+  height: 140px;
+}
+.header a {
+  color: #2F2C32;
+  text-decoration: none;
+  margin: 10px;
+  padding: 0px 10px;
+}
+.hero .row {
+  height: auto;
+  padding: 30px;
+  background-color: #2F2C32;
+}
+.carousel p, .carousel h5 {
+  font-size: 20px;
+  color: #2F2C32;
+}
+.experience-detail{
+  margin: 10px;
+  padding: 10px;
+  background-color: #2f2c32;
+  text-align: center;
+}
+.experience-imageContainer {
+  min-height: 200px;
+}
+.experience-imageContainer img{
+  border-radius: 10px;
+}
+.contacto{
+  background-color: grey;
+}
+.contacto .row {
+  height: 150px;
+}
+.social a {
+  margin: 0 15px;
+}
+.footer p {
+  margin: 10px 0;
+}
+.footer a{
+  color: #2F2C32;
+}
